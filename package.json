@@ -4,7 +4,7 @@
   "description": "Watches for changes to a git repository, and builds a staticsite when the specified branch changes.",
   "main": "index.js",
   "scripts": {
-    "start": "index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
