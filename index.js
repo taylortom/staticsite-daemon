@@ -8,6 +8,7 @@ console.log(`Listening on port ${PORT}`);
 
 var server = http.createServer(function onRequest(req, res) {
   if(req.method !== 'GET' || req.url !== '/github') {
+    console.log(`Ignoring invalid request...${req.url}`);
     return res.end(fs.readFileSync('public/landing.html'));
   }
   console.log('Handling valid request...');
