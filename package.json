@@ -1,0 +1,22 @@
+{
+  "name": "staticsite-daemon",
+  "version": "0.0.1",
+  "description": "Watches for changes to a git repository, and builds a staticsite when the specified branch changes.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylortom/staticsite-daemon.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Thomas Taylor <me@taylortom.co.uk> (http://taylortom.co.uk/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taylortom/staticsite-daemon/issues"
+  },
+  "homepage": "https://github.com/taylortom/staticsite-daemon#readme",
+  "dependencies": {
+    "staticsite-cli": "^1.1.0"
+  }
+}
